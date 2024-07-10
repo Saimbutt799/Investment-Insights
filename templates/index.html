@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}Home - Investment Insights{% endblock %}
+
+{% block content %}
+    <form action="/calculate" method="post">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">$</span>
+            <input type="text" class="form-control" id="initial_investment" name="initial_investment" placeholder="Initial Investment" aria-describedby="basic-addon1" required>
+            <span class="input-group-text">.00</span>
+        </div>
+          
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Net Cash Flow (seperate by comma)" id="cash_flows" name="cash_flows" required>
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" placeholder="Discount Rate" id="discount_rate" name="discount_rate" required>
+        </div>
+
+        <div class = "mb-3">
+            <button class="btn btn-primary" type="submit">Calculate</button>
+        </div>
+    </form>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}Results{% endblock %}
+
+{% block content %}
+    <div class="result-card">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Investment Insights Results</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Notice: The results may be inaccurate</h6>
+              <p class="card-text">Net Present Value (NPV): ${{ npv }}.</p>
+              <p class="card-text">Payback Period: {{ payback_period }} years.</p>
+              <a href="/" class="card-link">Back</a>
+              <a href="/pricing" class="card-link">Pricing</a>
+            </div>
+          </div>
+    </div>
+{% endblock %}
