@@ -121,8 +121,6 @@ I did not have much time from my life due to everything else going on. So I had 
 [Instagram](https://www.instagram.com/saimbutt799/)
 [GitHub](https://github.com/Saimbutt799)
 
-Note: The website is not yet hosted on github. I'll do that soon.
-
 Thank you for reading this README file.
 I hope you like the project.
 Have a great day!
